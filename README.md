@@ -5,9 +5,9 @@
 pip3 install -r requirements
 Установить Selenium WebDriver from https://chromedriver.chromium.org/downloads
 
-python -m pytest -v --tb=line tests/test_auth_page.py
+python -m pytest -v --tb=line tests/test_authorization_page.py
 python -m pytest -v --tb=line tests/test_change_pass_page.py
-python -m pytest -v --tb=line tests/test_reg_page.py
+python -m pytest -v --tb=line tests/test_registration_page.py
 
 
 
